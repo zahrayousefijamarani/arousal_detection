@@ -48,6 +48,13 @@ To remove all of the dimensions except for one
 ### Fully Connected layer
 There are 3 Dense layers that after each one there is a PReLU layers and Dropout layer.
 All channels except SaO2 have [256,128,128] units and SaO2 has [512,256,64,64] units
+## Adam Optimizer
+Adam optimizer with learning rate 0.00005
+
+# Model Result
+![image](https://user-images.githubusercontent.com/45602698/141678281-2f97655e-16fd-4001-b19e-6b443451125c.png)
+## Sequential
+![image](https://user-images.githubusercontent.com/45602698/141678295-9ce10253-7cc1-4471-914d-68d8aac1d08b.png)
 
 
 
